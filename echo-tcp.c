@@ -101,7 +101,7 @@ int main(int argc, char* argv[]) {
         case 'h':
             printf("usage: echo [option]\n");
             printf("Options:\n");
-            printf("-p  : set port to listen to, default is 1234\n");
+            printf("-p  : set port to listen to, default is %d\n",_DEF_PORT_);
             printf("-b  : define backlog, default is %d\n",_DEF_BACKLOG_);
             printf("-h  : help\n");
             return 0;
